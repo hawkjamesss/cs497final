@@ -1,0 +1,171 @@
+POP (eg. The Beach Boys, Bob Dylan, Celine Dion, Michael Jackson)
+
+linear.weight    793454
+linear.bias      46
+Total Trainable Params: 793500
+Epoch 0
+train loss: tensor(0.0516)
+dev loss: tensor(0.1063)
+Epoch 1
+train loss: tensor(0.0335)
+dev loss: tensor(0.1079)
+Epoch 2
+train loss: tensor(0.0248)
+dev loss: tensor(0.1110)
+Epoch 3
+train loss: tensor(0.0196)
+dev loss: tensor(0.1144)
+Epoch 4
+train loss: tensor(0.0159)
+dev loss: tensor(0.1186)
+Epoch 5
+train loss: tensor(0.0133)
+dev loss: tensor(0.1241)
+Epoch 6
+train loss: tensor(0.0114)
+dev loss: tensor(0.1294)
+Epoch 7
+train loss: tensor(0.0097)
+dev loss: tensor(0.1316)
+Epoch 8
+train loss: tensor(0.0085)
+dev loss: tensor(0.1333)
+Epoch 9
+train loss: tensor(0.0076)
+dev loss: tensor(0.1362)
+Input: [CLS] mm ##mm gonna want arm gonna need gonna want arm gonna need gonna want arm gonna time take throne taste bitterness s ##ple ##ndo ##r darkness night love arm hold tight better stop think little take better start real stop fake better prepare rainy better throw little tender ##ness affection gonna need need gonna want arm tell gonna heart ##break take close book grow older lose rainbow ##s turn little take better start real stop fake better prepare rainy better throw little tender ##ness affection [SEP]
+Gold:  pop
+Pred:  pop
+Probabilities:  {'blues': 0.0079, 'bossa nova': 0.0, 'country': 0.0971, 'dance': 0.0001, 'disco': 0.0, 'electronica': 0.0185, 'folk': 0.0574, 'funk': 0.0004, 'gospel/religioso': 0.0159, 'grunge': 0.0, 'hard rock': 0.1906, 'hardcore': 0.0001, 'heavy metal': 0.0025, 'hip hop': 0.0033, 'house': 0.0, 'indie': 0.0636, 'industrial': 0.0011, 'instrumental': 0.0, 'j-pop/j-rock': 0.0037, 'jazz': 0.0229, 'k-pop/k-rock': 0.0, 'new age': 0.0001, 'new wave': 0.0001, 'piano rock': 0.0019, 'pop': 0.2144, 'pop/punk': 0.0, 'pop/rock': 0.011, 'power-pop': 0.0, 'progressivo': 0.0015, 'punk rock': 0.1081, 'r&b': 0.0, 'rap': 0.0219, 'reggae': 0.0182, 'reggaeton': 0.0, 'rock': 0.0407, 'rock alternativo': 0.0001, 'rockabilly': 0.0013, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.0429, 'soul music': 0.0061, 'tecnopop': 0.0464, 'trance': 0.0, 'trip-hop': 0.0002, 'tropical house': 0.0, 'world music': 0.0}
+
+Input: [CLS] yeah work hard mother ##fu ##cki ##n day ##aya ##ya ##y ##y work hard work hard day ##aya ##ya ##y ##y yeah today matter la ##lal ##ala ##lal ##a yeah yeah roll spot feel ##in real good think talk shit better ho ##mie ##s real hood logic know know yeah like know know know think want know fuck kn ##uck b ##uck ##in yeah work ##in not ##hin tell deal ##y hold shit talk ##in silly quick rise quick fall fuck fuck work hard mother ##fu ##cki ##n day ##aya ##ya ##y ##y work hard work hard day ##aya ##ya ##y ##y yeah today matter la ##lal ##ala ##lal ##a yeah want attention bunch shit shouldn mention cause daddy issue days days days today shit right fuck v ##ibe v ##ibe v ##ibe v ##ibe try ##na live life right yeah try ##na live life right cause tell right right wide world palm hand right fuck light cameras money fame right r ##ado ##ub ##le t ##pa ##c cause know work hard mother ##fu ##cki ##n day ##aya ##ya ##y ##y work hard work hard day ##aya ##ya ##y ##y yeah today matter la ##lal ##ala ##lal ##a yeah yeah [SEP]
+Gold:  pop
+Pred:  hip hop
+Probabilities:  {'blues': 0.0, 'bossa nova': 0.0, 'country': 0.0, 'dance': 0.0, 'disco': 0.0, 'electronica': 0.3791, 'folk': 0.0, 'funk': 0.0, 'gospel/religioso': 0.0, 'grunge': 0.0, 'hard rock': 0.0, 'hardcore': 0.0, 'heavy metal': 0.0029, 'hip hop': 0.4423, 'house': 0.0, 'indie': 0.0001, 'industrial': 0.0, 'instrumental': 0.0, 'j-pop/j-rock': 0.0001, 'jazz': 0.0, 'k-pop/k-rock': 0.0, 'new age': 0.0, 'new wave': 0.0, 'piano rock': 0.0003, 'pop': 0.0266, 'pop/punk': 0.0, 'pop/rock': 0.0001, 'power-pop': 0.0, 'progressivo': 0.0, 'punk rock': 0.0007, 'r&b': 0.0005, 'rap': 0.146, 'reggae': 0.0003, 'reggaeton': 0.0, 'rock': 0.0009, 'rock alternativo': 0.0, 'rockabilly': 0.0, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.0, 'soul music': 0.0, 'tecnopop': 0.0, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0, 'world music': 0.0}
+
+Input: [CLS] like independent investment tell like gotta entertain anybody answer want somebody hold jacket cold young yeah want grab hand pick pull close till swear good look ##in future cause time right dear song like crowd tend shut people like space yeah soul mate someday know swear good look ##in future o ##oo ##h cause time right dear song want somebody hold jacket cold young yeah want grab hand pick pull close till swear good look ##in future cause time right dear song dear need search dear dear dear song [SEP]
+Gold:  pop
+Pred:  country
+Probabilities:  {'blues': 0.0183, 'bossa nova': 0.0, 'country': 0.3149, 'dance': 0.0001, 'disco': 0.0, 'electronica': 0.0188, 'folk': 0.0006, 'funk': 0.0002, 'gospel/religioso': 0.0005, 'grunge': 0.0, 'hard rock': 0.0137, 'hardcore': 0.0015, 'heavy metal': 0.0068, 'hip hop': 0.0587, 'house': 0.0, 'indie': 0.0102, 'industrial': 0.0001, 'instrumental': 0.0005, 'j-pop/j-rock': 0.0008, 'jazz': 0.002, 'k-pop/k-rock': 0.0, 'new age': 0.0, 'new wave': 0.0071, 'piano rock': 0.0024, 'pop': 0.3096, 'pop/punk': 0.0, 'pop/rock': 0.0022, 'power-pop': 0.0, 'progressivo': 0.0004, 'punk rock': 0.0111, 'r&b': 0.0013, 'rap': 0.1137, 'reggae': 0.0008, 'reggaeton': 0.0, 'rock': 0.0851, 'rock alternativo': 0.0, 'rockabilly': 0.0009, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.0167, 'soul music': 0.0005, 'tecnopop': 0.0001, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0004, 'world music': 0.0}
+
+Input: [CLS] gonna hurt heart know count friend know pain endure take best girl know give try play cry give treat give give prove world wrong give teach world lesson fall give fault bear trust heart erase think beautiful stay understand hurt try work girl know give sigh things better need count give give prove world wrong give teach world lesson n ##nn ##nne ##ver fall sigh things better need count give yeah give prove world wrong give yeah yeah yeah gonna teach world lesson n ##nn ##nne ##ver gonna fall give give prove world wrong give gonna teach world lesson [SEP]
+Gold:  pop
+Pred:  pop
+Probabilities:  {'blues': 0.0013, 'bossa nova': 0.0, 'country': 0.0145, 'dance': 0.0, 'disco': 0.0, 'electronica': 0.0058, 'folk': 0.0071, 'funk': 0.0002, 'gospel/religioso': 0.0016, 'grunge': 0.0, 'hard rock': 0.001, 'hardcore': 0.0023, 'heavy metal': 0.0238, 'hip hop': 0.0032, 'house': 0.0, 'indie': 0.0236, 'industrial': 0.0, 'instrumental': 0.0, 'j-pop/j-rock': 0.0005, 'jazz': 0.0016, 'k-pop/k-rock': 0.0001, 'new age': 0.0, 'new wave': 0.0082, 'piano rock': 0.0, 'pop': 0.3295, 'pop/punk': 0.0, 'pop/rock': 0.0065, 'power-pop': 0.0, 'progressivo': 0.0, 'punk rock': 0.163, 'r&b': 0.0081, 'rap': 0.0387, 'reggae': 0.1434, 'reggaeton': 0.0, 'rock': 0.1544, 'rock alternativo': 0.0, 'rockabilly': 0.0037, 'samba': 0.0, 'ska': 0.0001, 'soft rock': 0.0577, 'soul music': 0.0, 'tecnopop': 0.0, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0001, 'world music': 0.0}
+
+Input: [CLS] ma ##ma walk away goddamn sore loser proud think bout lone ##some mind ma ##ma leave soul shut tight like stone cold tomb clear near die hear call time mind water eye breathe ignore blood floor heart sleeve bleed ma ##ma walk away leave be ##rea ##ve word hard plain say selfish make kiss prove stand burn skin stand burn skin [SEP]
+Gold:  pop
+Pred:  heavy metal
+Probabilities:  {'blues': 0.0016, 'bossa nova': 0.0, 'country': 0.0388, 'dance': 0.0001, 'disco': 0.0, 'electronica': 0.0035, 'folk': 0.0124, 'funk': 0.0, 'gospel/religioso': 0.0015, 'grunge': 0.0, 'hard rock': 0.0587, 'hardcore': 0.0039, 'heavy metal': 0.5798, 'hip hop': 0.0318, 'house': 0.0, 'indie': 0.0309, 'industrial': 0.0113, 'instrumental': 0.0004, 'j-pop/j-rock': 0.0002, 'jazz': 0.0036, 'k-pop/k-rock': 0.0, 'new age': 0.0028, 'new wave': 0.0007, 'piano rock': 0.0016, 'pop': 0.0319, 'pop/punk': 0.0, 'pop/rock': 0.0074, 'power-pop': 0.0, 'progressivo': 0.0, 'punk rock': 0.0482, 'r&b': 0.0002, 'rap': 0.0115, 'reggae': 0.0002, 'reggaeton': 0.0, 'rock': 0.0732, 'rock alternativo': 0.0011, 'rockabilly': 0.0029, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.0064, 'soul music': 0.0001, 'tecnopop': 0.0158, 'trance': 0.0, 'trip-hop': 0.0174, 'tropical house': 0.0, 'world music': 0.0}
+
+Input: [CLS] touch temptation feel motivation hear sensation need night long night long sensation need com ##plication hear late need night long night long beat go sensation go hear late feel sensation sensation sensation sensation sensation [SEP]
+Gold:  pop
+Pred:  electronica
+Probabilities:  {'blues': 0.0236, 'bossa nova': 0.0019, 'country': 0.0016, 'dance': 0.0011, 'disco': 0.0005, 'electronica': 0.2495, 'folk': 0.0072, 'funk': 0.0024, 'gospel/religioso': 0.0037, 'grunge': 0.0, 'hard rock': 0.0247, 'hardcore': 0.0022, 'heavy metal': 0.0704, 'hip hop': 0.0026, 'house': 0.0002, 'indie': 0.0408, 'industrial': 0.0341, 'instrumental': 0.0077, 'j-pop/j-rock': 0.0051, 'jazz': 0.01, 'k-pop/k-rock': 0.0019, 'new age': 0.1175, 'new wave': 0.0045, 'piano rock': 0.0475, 'pop': 0.006, 'pop/punk': 0.0048, 'pop/rock': 0.0074, 'power-pop': 0.0008, 'progressivo': 0.0305, 'punk rock': 0.0229, 'r&b': 0.0023, 'rap': 0.0086, 'reggae': 0.0189, 'reggaeton': 0.0013, 'rock': 0.042, 'rock alternativo': 0.0055, 'rockabilly': 0.0077, 'samba': 0.0002, 'ska': 0.0012, 'soft rock': 0.1183, 'soul music': 0.0059, 'tecnopop': 0.026, 'trance': 0.0009, 'trip-hop': 0.0255, 'tropical house': 0.0026, 'world music': 0.0}
+
+Input: [CLS] sugar wall sugar wall come place call heaven place good children house silver streets gold come sugar wall sugar wall sugar wall blood race private spot let know fight passion passion temperatures rise inside sugar wall le ##mme things see wanna fall come spend night inside sugar wall advantage right feel alive come feel presence rain tonight heaven earth inside sugar wall things see wanna fall come spend night inside sugar wall tell want sugar wall impossible hide body admit come inside sugar wall ah ##hh sugar wall come inside sugar wall sugar wall sugar wall come spend night inside sugar wall sugar wall sugar wall [SEP]
+Gold:  pop
+Pred:  rock
+Probabilities:  {'blues': 0.0002, 'bossa nova': 0.0, 'country': 0.0058, 'dance': 0.0003, 'disco': 0.0, 'electronica': 0.0202, 'folk': 0.0195, 'funk': 0.0, 'gospel/religioso': 0.003, 'grunge': 0.0, 'hard rock': 0.0079, 'hardcore': 0.0001, 'heavy metal': 0.124, 'hip hop': 0.0112, 'house': 0.0, 'indie': 0.112, 'industrial': 0.1123, 'instrumental': 0.0, 'j-pop/j-rock': 0.0001, 'jazz': 0.0028, 'k-pop/k-rock': 0.0, 'new age': 0.0003, 'new wave': 0.0001, 'piano rock': 0.0002, 'pop': 0.0331, 'pop/punk': 0.0002, 'pop/rock': 0.0483, 'power-pop': 0.0, 'progressivo': 0.0014, 'punk rock': 0.0056, 'r&b': 0.0046, 'rap': 0.0687, 'reggae': 0.0893, 'reggaeton': 0.0, 'rock': 0.2771, 'rock alternativo': 0.0, 'rockabilly': 0.0007, 'samba': 0.0, 'ska': 0.0002, 'soft rock': 0.0499, 'soul music': 0.0004, 'tecnopop': 0.0003, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0, 'world music': 0.0}  
+
+Input: [CLS] believe believe yeah gotta believe gotta believe gotta believe gotta believe gotta believe hurt gotta believe gotta believe gotta believe gotta believe gotta believe hurt tell need tell closest friend leave hold tight night caress tender care anytime anytime trust baby trust baby stay death death right heart stay baby believe believe gotta believe gotta believe gotta believe believe baby gotta believe hurt gotta believe gotta believe gotta believe believe gotta believe hear loud clear believe tell trust lead baby hand need wanna hold tight afraid gotta believe gotta believe gotta believe believe gotta believe gotta believe hurt gotta believe gotta believe gotta believe believe gotta believe gotta believe hurt hand understand understand baby believe hand say understand baby believe believe gotta believe gotta believe gotta believe gotta believe gotta believe hurt gotta believe gotta believe gotta believe believe gotta believe gotta believe gotta believe yeah gotta believe hurt gotta believe gotta believe gotta believe gotta believe believe gotta believe hurt gotta believe gotta believe gotta believe gotta believe gotta believe hurt gotta believe yeah believe gotta believe baby yeah yeah yeah gotta believe want away [SEP]
+Gold:  pop
+Pred:  rap
+Probabilities:  {'blues': 0.041, 'bossa nova': 0.0, 'country': 0.0424, 'dance': 0.0212, 'disco': 0.0, 'electronica': 0.0041, 'folk': 0.0014, 'funk': 0.0002, 'gospel/religioso': 0.0267, 'grunge': 0.0, 'hard rock': 0.0188, 'hardcore': 0.0001, 'heavy metal': 0.0469, 'hip hop': 0.0034, 'house': 0.0, 'indie': 0.0031, 'industrial': 0.0002, 'instrumental': 0.0, 'j-pop/j-rock': 0.0004, 'jazz': 0.0001, 'k-pop/k-rock': 0.0002, 'new age': 0.0037, 'new wave': 0.0005, 'piano rock': 0.0002, 'pop': 0.1433, 'pop/punk': 0.0, 'pop/rock': 0.0011, 'power-pop': 0.0007, 'progressivo': 0.0005, 'punk rock': 0.0103, 'r&b': 0.0491, 'rap': 0.4386, 'reggae': 0.0002, 'reggaeton': 0.0, 'rock': 0.1228, 'rock alternativo': 0.0, 'rockabilly': 0.0044, 'samba': 0.0, 'ska': 0.0001, 'soft rock': 0.0113, 'soul music': 0.0003, 'tecnopop': 0.0022, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0004, 'world music': 0.0}
+
+Input: [CLS] know watch ##in time try ##in ma ##kin long start a ##com ##in strong super charm bring know act ##in like movie think person decide long long time who ##a who ##a love think fine take love think like lo ##vin tell ##in away away decide long long time who ##a who ##a repeat fade [SEP]
+Gold:  pop
+Pred:  j-pop/j-rock
+Probabilities:  {'blues': 0.0163, 'bossa nova': 0.0006, 'country': 0.035, 'dance': 0.0027, 'disco': 0.0295, 'electronica': 0.0171, 'folk': 0.033, 'funk': 0.0081, 'gospel/religioso': 0.007, 'grunge': 0.0005, 'hard rock': 0.0251, 'hardcore': 0.0016, 'heavy metal': 0.0106, 'hip hop': 0.0387, 'house': 0.0, 'indie': 0.0138, 'industrial': 0.0076, 'instrumental': 0.0244, 'j-pop/j-rock': 0.2367, 'jazz': 0.0028, 'k-pop/k-rock': 0.0, 'new age': 0.0208, 'new wave': 0.0187, 'piano rock': 0.0211, 'pop': 0.0226, 'pop/punk': 0.0003, 'pop/rock': 0.0056, 'power-pop': 0.0, 'progressivo': 0.0003, 'punk rock': 0.0411, 'r&b': 0.0263, 'rap': 0.0158, 'reggae': 0.0221, 'reggaeton': 0.0001, 'rock': 0.0323, 'rock alternativo': 0.0015, 'rockabilly': 0.0034, 'samba': 0.0, 'ska': 0.0048, 'soft rock': 0.1206, 'soul music': 0.0088, 'tecnopop': 0.0012, 'trance': 0.0, 'trip-hop': 0.1196, 'tropical house': 0.0017, 'world music': 0.0003}
+
+Input: [CLS] morning frog inside so ##ck ma ##ma hid ##in inside ice ##box daddy walk wear ##in b ##ona ##par ##te mask live monkey face claw fireplace tell sa ##nta milk ##man come wear live come ask some ##thin hungry sea ##weed dirty hole stomach disappear live gotta think weird grand ##pa cane turn sword grand ##ma pray picture paste board inside pocket uncle steal live believe real fist ##fight kitchen little mail ##man come prove live come [SEP]
+Gold:  pop
+Pred:  indie
+Probabilities:  {'blues': 0.0064, 'bossa nova': 0.0, 'country': 0.0713, 'dance': 0.0001, 'disco': 0.0, 'electronica': 0.0002, 'folk': 0.1439, 'funk': 0.0, 'gospel/religioso': 0.0026, 'grunge': 0.0, 'hard rock': 0.0327, 'hardcore': 0.0, 'heavy metal': 0.0181, 'hip hop': 0.0547, 'house': 0.0, 'indie': 0.5572, 'industrial': 0.0027, 'instrumental': 0.0, 'j-pop/j-rock': 0.0, 'jazz': 0.0028, 'k-pop/k-rock': 0.0, 'new age': 0.0, 'new wave': 0.0001, 'piano rock': 0.0001, 'pop': 0.0094, 'pop/punk': 0.0, 'pop/rock': 0.0001, 'power-pop': 0.0, 'progressivo': 0.0017, 'punk rock': 0.0026, 'r&b': 0.0, 'rap': 0.0231, 'reggae': 0.0025, 'reggaeton': 0.0, 'rock': 0.0455, 'rock alternativo': 0.0034, 'rockabilly': 0.0001, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.0181, 'soul music': 0.0001, 'tecnopop': 0.0, 'trance': 0.0, 'trip-hop': 0.0001, 'tropical house': 0.0, 'world music': 0.0}
+
+------------------------------------------------------------------------------------------------
+
+COUNTRY (eg. Johnny Cash, Willie Nelson, Dolly Parton, Merle Haggard, Charlie Daniels Band, Lynyrd Skynyrd)
+
+linear.weight    793454
+linear.bias      46
+Total Trainable Params: 793500
+Epoch 0
+train loss: tensor(0.0524)
+dev loss: tensor(0.0826)
+Epoch 1
+train loss: tensor(0.0337)
+dev loss: tensor(0.0787)
+Epoch 2
+train loss: tensor(0.0249)
+dev loss: tensor(0.0772)
+Epoch 3
+train loss: tensor(0.0196)
+dev loss: tensor(0.0784)
+Epoch 4
+train loss: tensor(0.0159)
+dev loss: tensor(0.0752)
+Epoch 5
+train loss: tensor(0.0134)
+dev loss: tensor(0.0772)
+Epoch 6
+train loss: tensor(0.0114)
+dev loss: tensor(0.0777)
+Epoch 7
+train loss: tensor(0.0098)
+dev loss: tensor(0.0777)
+Epoch 8
+train loss: tensor(0.0085)
+dev loss: tensor(0.0794)
+Epoch 9
+train loss: tensor(0.0075)
+dev loss: tensor(0.0790)
+Input: [CLS] yesterday know pass away ma ##ma say yeah know go school kid live say see line j ##oh ##nson say tell thank hometown ##s make round thank county line welcome die thank church p ##ews face forget cause lose crazy world thank hometown ##s yeah cousin tie knot know sure pretty good haul drive feel come life closer light roll windows breathe take look thank hometown ##s kiss touchdowns thank county line welcome die thank church p ##ews face forget lose crazy world thank hometown ##s piece walk familiar streets thank hometown ##s make round thank county line welcome die thank church p ##ews face forget lose crazy world thank hometown ##s thank hometown ##s [SEP]
+Gold:  country
+Pred:  country
+Probabilities:  {'blues': 0.0028, 'bossa nova': 0.0, 'country': 0.3235, 'dance': 0.0022, 'disco': 0.0, 'electronica': 0.0002, 'folk': 0.0025, 'funk': 0.0, 'gospel/religioso': 0.1434, 'grunge': 0.0, 'hard rock': 0.0032, 'hardcore': 0.0004, 'heavy metal': 0.0013, 'hip hop': 0.2896, 'house': 0.0, 'indie': 0.0011, 'industrial': 0.0, 'instrumental': 0.0, 'j-pop/j-rock': 0.0027, 'jazz': 0.0004, 'k-pop/k-rock': 0.0, 'new age': 0.0, 'new wave': 0.0, 'piano rock': 0.0001, 'pop': 0.0129, 'pop/punk': 0.0, 'pop/rock': 0.0023, 'power-pop': 0.0, 'progressivo': 0.0011, 'punk rock': 0.0006, 'r&b': 0.0004, 'rap': 0.0148, 'reggae': 0.0005, 'reggaeton': 0.0, 'rock': 0.1819, 'rock alternativo': 0.0, 'rockabilly': 0.0011, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.0103, 'soul music': 0.0002, 'tecnopop': 0.0005, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0, 'world music': 0.0}
+
+Input: [CLS] hurt hold lately come hurt baby spell burn skin hate high pain drive crazy fly highway drink slide sideways watch road hold wheel hear tire sq ##ue ##al flame arm escape stay leave hurt wake wire cross want ##in fall arm kiss soul demand try cold stand draw spark deep dark pull tug ta ##r apart heart brand arm escape stay leave hurt wake wire cross want ##in fall arm hurt hold lately come hurt baby arm escape stay leave hurt wake wire cross want ##in fall arm arm [SEP]
+Gold:  country
+Pred:  country
+Probabilities:  {'blues': 0.0083, 'bossa nova': 0.0, 'country': 0.831, 'dance': 0.0001, 'disco': 0.0, 'electronica': 0.0057, 'folk': 0.0182, 'funk': 0.0, 'gospel/religioso': 0.0003, 'grunge': 0.0, 'hard rock': 0.0005, 'hardcore': 0.0001, 'heavy metal': 0.0116, 'hip hop': 0.0005, 'house': 0.0, 'indie': 0.0711, 'industrial': 0.0, 'instrumental': 0.0, 'j-pop/j-rock': 0.0, 'jazz': 0.0, 'k-pop/k-rock': 0.0, 'new age': 0.0, 'new wave': 0.0007, 'piano rock': 0.0001, 'pop': 0.0049, 'pop/punk': 0.0001, 'pop/rock': 0.0008, 'power-pop': 0.0, 'progressivo': 0.0003, 'punk rock': 0.0033, 'r&b': 0.0, 'rap': 0.0037, 'reggae': 0.0001, 'reggaeton': 0.0, 'rock': 0.0331, 'rock alternativo': 0.0001, 'rockabilly': 0.0023, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.0009, 'soul music': 0.0, 'tecnopop': 0.002, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0, 'world music': 0.0}
+
+Input: [CLS] say years tonight move refuse like yesterday maybe summer year like live like settle school think t ##wi ##light years arrive like live baby come look like favor believe years come go like nearly [SEP]
+Gold:  country
+Pred:  punk rock
+Probabilities:  {'blues': 0.0252, 'bossa nova': 0.0067, 'country': 0.0373, 'dance': 0.0032, 'disco': 0.0015, 'electronica': 0.0408, 'folk': 0.0194, 'funk': 0.0035, 'gospel/religioso': 0.0361, 'grunge': 0.0003, 'hard rock': 0.016, 'hardcore': 0.015, 'heavy metal': 0.1039, 'hip hop': 0.0199, 'house': 0.0003, 'indie': 0.0603, 'industrial': 0.0031, 'instrumental': 0.01, 'j-pop/j-rock': 0.0077, 'jazz': 0.0225, 'k-pop/k-rock': 0.0061, 'new age': 0.0037, 'new wave': 0.0056, 'piano rock': 0.0043, 'pop': 0.0362, 'pop/punk': 0.0034, 'pop/rock': 0.0227, 'power-pop': 0.0049, 'progressivo': 0.0178, 'punk rock': 0.1644, 'r&b': 0.0029, 'rap': 0.0146, 'reggae': 0.0287, 'reggaeton': 0.0011, 'rock': 0.0944, 'rock alternativo': 0.0009, 'rockabilly': 0.018, 'samba': 0.0019, 'ska': 0.0221, 'soft rock': 0.0231, 'soul music': 0.0027, 'tecnopop': 0.0328, 'trance': 0.0, 'trip-hop': 0.0439, 'tropical house': 0.0111, 'world music': 0.0002}
+
+Input: [CLS] daddy sit porch swing look vacant field fill b ##urley t ##ba ##cca know brothers work in ##dian ##a sisters nurse folks home ma ##ma cook supper long time go long time go ho ##e don ##t know long time go come del ##iah play church p ##iana sit daddy ##s farm think lord mean harm say hear sing ##in choir hear song catch wind road run ##nin lord long time go long time go lord prayer don ##t know long time go com ##in go na ##sh ##ville try ##in beat deal play ##in broad ##way get ##tin hard live sleep ho ##ck guitar yeah gonna del ##iah sing sun ##day watch children garden grow listen radio hear what ##s cook ##in music soul sound tire don ##t sound ha ##gg ##ard they ##ve money don ##t cash junior don ##t think think think rest long time go roof don ##t know long time go come say long time go ho ##nk horn don ##t know long time go come say long time long time long time go long time long time long time long time go long time go long time long time long time go yeah yeah [SEP]
+Gold:  country
+Pred:  country
+Probabilities:  {'blues': 0.0038, 'bossa nova': 0.0, 'country': 0.8574, 'dance': 0.0, 'disco': 0.0, 'electronica': 0.0, 'folk': 0.0034, 'funk': 0.0, 'gospel/religioso': 0.0005, 'grunge': 0.0, 'hard rock': 0.0001, 'hardcore': 0.0, 'heavy metal': 0.0001, 'hip hop': 0.042, 'house': 0.0, 'indie': 0.002, 'industrial': 0.0, 'instrumental': 0.0, 'j-pop/j-rock': 0.0, 'jazz': 0.0016, 'k-pop/k-rock': 0.0, 'new age': 0.0, 'new wave': 0.0, 'piano rock': 0.0003, 'pop': 0.0005, 'pop/punk': 0.0, 'pop/rock': 0.0001, 'power-pop': 0.0, 'progressivo': 0.0, 'punk rock': 0.0001, 'r&b': 0.0, 'rap': 0.0136, 'reggae': 0.0018, 'reggaeton': 0.0, 'rock': 0.0472, 'rock alternativo': 0.0, 'rockabilly': 0.0003, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.025, 'soul music': 0.0, 'tecnopop': 0.0, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0, 'world music': 0.0}
+
+Input: [CLS] life tell need sit think sit ##tin drink ##in bout look mirror crazy lonely suck ##er look sit think ##in sit ##tin drink ##in bout mission try ##in decision gonna cause go mission try ##in decision gonna cause go sit think ##in sit ##tin drink ##in bout sit think ##in sit ##tin drink ##in bout [SEP]
+Gold:  country
+Pred:  industrial
+Probabilities:  {'blues': 0.0038, 'bossa nova': 0.0, 'country': 0.1276, 'dance': 0.0002, 'disco': 0.0006, 'electronica': 0.0697, 'folk': 0.0128, 'funk': 0.0008, 'gospel/religioso': 0.011, 'grunge': 0.0, 'hard rock': 0.0526, 'hardcore': 0.0166, 'heavy metal': 0.0262, 'hip hop': 0.0389, 'house': 0.0, 'indie': 0.0125, 'industrial': 0.413, 'instrumental': 0.0017, 'j-pop/j-rock': 0.0012, 'jazz': 0.0233, 'k-pop/k-rock': 0.0017, 'new age': 0.0009, 'new wave': 0.0, 'piano rock': 0.0053, 'pop': 0.0177, 'pop/punk': 0.0016, 'pop/rock': 0.0036, 'power-pop': 0.0, 'progressivo': 0.0004, 'punk rock': 0.0065, 'r&b': 0.0066, 'rap': 0.0342, 'reggae': 0.0173, 'reggaeton': 0.0, 'rock': 0.0168, 'rock alternativo': 0.0018, 'rockabilly': 0.0118, 'samba': 0.0, 'ska': 0.0211, 'soft rock': 0.01, 'soul music': 0.0035, 'tecnopop': 0.0013, 'trance': 0.0, 'trip-hop': 0.0164, 'tropical house': 0.009, 'world music': 0.0}
+
+Input: [CLS] come home late night shoe hand stumble door know cold cry cause break home know know hell go world world inside head devil devil bottle want dead fall arm help cloth ##e yeah stay cause know cause try lord freedom escape freedom know know know hell go world world inside head devil devil bottle want dead devil devil bottle bottle want want dead kill [SEP]
+Gold:  country
+Pred:  heavy metal
+Probabilities:  {'blues': 0.0312, 'bossa nova': 0.0, 'country': 0.0147, 'dance': 0.0117, 'disco': 0.0, 'electronica': 0.0134, 'folk': 0.0264, 'funk': 0.0, 'gospel/religioso': 0.0037, 'grunge': 0.0, 'hard rock': 0.0077, 'hardcore': 0.0027, 'heavy metal': 0.6946, 'hip hop': 0.0186, 'house': 0.0, 'indie': 0.0342, 'industrial': 0.0051, 'instrumental': 0.0, 'j-pop/j-rock': 0.0012, 'jazz': 0.0004, 'k-pop/k-rock': 0.0, 'new age': 0.0014, 'new wave': 0.0006, 'piano rock': 0.0002, 'pop': 0.0006, 'pop/punk': 0.0015, 'pop/rock': 0.0037, 'power-pop': 0.001, 'progressivo': 0.0121, 'punk rock': 0.016, 'r&b': 0.0023, 'rap': 0.0084, 'reggae': 0.0016, 'reggaeton': 0.0, 'rock': 0.008, 'rock alternativo': 0.0038, 'rockabilly': 0.0013, 'samba': 0.0, 'ska': 0.0254, 'soft rock': 0.0333, 'soul music': 0.0044, 'tecnopop': 0.0085, 'trance': 0.0, 'trip-hop': 0.0001, 'tropical house': 0.0001, 'world music': 0.0}
+
+Input: [CLS] give key city welcome wagons appear pack leave plain live forget cause live say live face cool even hear voice breeze loud clear memories live live [SEP]
+Gold:  country
+Pred:  heavy metal
+Probabilities:  {'blues': 0.026, 'bossa nova': 0.0, 'country': 0.0583, 'dance': 0.0046, 'disco': 0.004, 'electronica': 0.0248, 'folk': 0.0533, 'funk': 0.0004, 'gospel/religioso': 0.0684, 'grunge': 0.0002, 'hard rock': 0.0538, 'hardcore': 0.0684, 'heavy metal': 0.1046, 'hip hop': 0.0154, 'house': 0.0, 'indie': 0.0238, 'industrial': 0.0007, 'instrumental': 0.0517, 'j-pop/j-rock': 0.0279, 'jazz': 0.104, 'k-pop/k-rock': 0.0043, 'new age': 0.0098, 'new wave': 0.0049, 'piano rock': 0.0075, 'pop': 0.0267, 'pop/punk': 0.008, 'pop/rock': 0.0106, 'power-pop': 0.0033, 'progressivo': 0.0041, 'punk rock': 0.0351, 'r&b': 0.0055, 'rap': 0.0181, 'reggae': 0.0225, 'reggaeton': 0.0007, 'rock': 0.0455, 'rock alternativo': 0.0009, 'rockabilly': 0.025, 'samba': 0.001, 'ska': 0.0013, 'soft rock': 0.0449, 'soul music': 0.0082, 'tecnopop': 0.01, 'trance': 0.0, 'trip-hop': 0.0091, 'tropical house': 0.0021, 'world music': 0.0004}
+
+Input: [CLS] break heart glass beer live life row ##dy rough break heart glass beer fear r ##oam year year wild wool ##y lord fl ##eas end knees break heart glass beer baby go know lonely soul deep despair kick roof oddly right break heart glass beer strip gear year mail ##man die phone ring landlord kick rain break heart glass beer break heart lord glass beer [SEP]
+Gold:  country
+Pred:  country
+Probabilities:  {'blues': 0.0179, 'bossa nova': 0.0, 'country': 0.4071, 'dance': 0.0, 'disco': 0.0, 'electronica': 0.0035, 'folk': 0.0194, 'funk': 0.0, 'gospel/religioso': 0.0257, 'grunge': 0.0, 'hard rock': 0.0044, 'hardcore': 0.0, 'heavy metal': 0.0258, 'hip hop': 0.0024, 'house': 0.0, 'indie': 0.0048, 'industrial': 0.0, 'instrumental': 0.0, 'j-pop/j-rock': 0.0, 'jazz': 0.2792, 'k-pop/k-rock': 0.0, 'new age': 0.0, 'new wave': 0.0, 'piano rock': 0.001, 'pop': 0.0044, 'pop/punk': 0.0, 'pop/rock': 0.0008, 'power-pop': 0.0, 'progressivo': 0.0004, 'punk rock': 0.039, 'r&b': 0.0, 'rap': 0.0018, 'reggae': 0.0001, 'reggaeton': 0.0, 'rock': 0.0169, 'rock alternativo': 0.0003, 'rockabilly': 0.0018, 'samba': 0.0, 'ska': 0.0002, 'soft rock': 0.0987, 'soul music': 0.0004, 'tecnopop': 0.0437, 'trance': 0.0, 'trip-hop': 0.0, 'tropical house': 0.0, 'world music': 0.0}
+
+Input: [CLS] follow te ##xa ##s follow u ##tah m ##oo ##ved follow al ##aba ##m things look good bi ##rming ##ham move know tire follow ##in el ##usive dream scheme fleet things el ##usive dream child me ##mp ##his hear work na ##ash ##ville m ##oo ##ved small farm ne ##bra ##ska gold al ##ask ##a move leave al ##ask ##a go ##old time move little memory c ##ling know tire follow ##in el ##usive dream scheme fleet things el ##usive dream ah ##ha ##hh ##ah ##ha ##hh fleet things el ##usive dream [SEP]
+Gold:  country
+Pred:  rock
+Probabilities:  {'blues': 0.0002, 'bossa nova': 0.0, 'country': 0.1236, 'dance': 0.0001, 'disco': 0.0, 'electronica': 0.0, 'folk': 0.0022, 'funk': 0.0, 'gospel/religioso': 0.0004, 'grunge': 0.0, 'hard rock': 0.0113, 'hardcore': 0.0001, 'heavy metal': 0.0008, 'hip hop': 0.0043, 'house': 0.0, 'indie': 0.1493, 'industrial': 0.0, 'instrumental': 0.0, 'j-pop/j-rock': 0.0011, 'jazz': 0.0026, 'k-pop/k-rock': 0.0002, 'new age': 0.0, 'new wave': 0.0, 'piano rock': 0.0, 'pop': 0.0004, 'pop/punk': 0.0001, 'pop/rock': 0.0005, 'power-pop': 0.0, 'progressivo': 0.0, 'punk rock': 0.1531, 'r&b': 0.0, 'rap': 0.0125, 'reggae': 0.0004, 'reggaeton': 0.0, 'rock': 0.528, 'rock alternativo': 0.0006, 'rockabilly': 0.0045, 'samba': 0.0, 'ska': 0.0, 'soft rock': 0.0008, 'soul music': 0.0001, 'tecnopop': 0.001, 'trance': 0.0, 'trip-hop': 0.0011, 'tropical house': 0.0, 'world music': 0.0003}
+
+Input: [CLS] los ##in mind lover time get knock pain come round women right lose battle fight see com ##in capture dream easily see long list time miss zero time like heart ##ache begin leave tonight look like aim heart look ##in feel ##in feel ##in start see com ##in capture dream easily see say tonight look like aim heart cause look ##in feel ##in feel ##in start see com ##in capture dream yeah easily see [SEP]
+Gold:  country
+Pred:  country
+Probabilities:  {'blues': 0.0017, 'bossa nova': 0.0, 'country': 0.1266, 'dance': 0.0006, 'disco': 0.0004, 'electronica': 0.0364, 'folk': 0.0062, 'funk': 0.0004, 'gospel/religioso': 0.0037, 'grunge': 0.0, 'hard rock': 0.067, 'hardcore': 0.0005, 'heavy metal': 0.0853, 'hip hop': 0.0484, 'house': 0.0, 'indie': 0.0135, 'industrial': 0.0004, 'instrumental': 0.0032, 'j-pop/j-rock': 0.0024, 'jazz': 0.0028, 'k-pop/k-rock': 0.0009, 'new age': 0.0013, 'new wave': 0.0031, 'piano rock': 0.013, 'pop': 0.0753, 'pop/punk': 0.0009, 'pop/rock': 0.0744, 'power-pop': 0.0, 'progressivo': 0.0, 'punk rock': 0.1012, 'r&b': 0.0002, 'rap': 0.0815, 'reggae': 0.1104, 'reggaeton': 0.0, 'rock': 0.048, 'rock alternativo': 0.0006, 'rockabilly': 0.0067, 'samba': 0.0, 'ska': 0.0001, 'soft rock': 0.0807, 'soul music': 0.0008, 'tecnopop': 0.0009, 'trance': 0.0, 'trip-hop': 0.0003, 'tropical house': 0.0001, 'world music': 0.0}
